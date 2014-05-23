@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JRIEngine">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jar/JRIEngine.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

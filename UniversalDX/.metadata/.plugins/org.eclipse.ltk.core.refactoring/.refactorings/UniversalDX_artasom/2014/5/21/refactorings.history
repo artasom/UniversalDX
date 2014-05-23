@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;UniversalDX_artasom&apos;&#x0A;- Original project: &apos;UniversalDX_artasom&apos;&#x0A;- Original element: &apos;com.universaldx.artasom.RTest.java&apos;" description="Delete element" element1="/src&lt;com.universaldx.artasom{RTest.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1400878220465" subPackages="false" version="1.0"/>
+</session>

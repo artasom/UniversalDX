@@ -1,0 +1,25 @@
+package com.universaldx.artasom;
+
+import org.rosuda.REngine.REXP;
+import org.rosuda.REngine.REXPMismatchException;
+import org.rosuda.REngine.Rserve.RConnection;
+import org.rosuda.REngine.Rserve.RserveException;
+
+public class Main {
+
+    public static void main(String[] args) {
+        try {
+            RConnection c = new RConnection();
+            REXP x = null;
+            String wd = "~/.";
+            x = c.eval("setwd(" + wd + ")");
+            
+            x = c.eval("/UniversalDX_artasom_r/UniversalDX_artasom.R");
+            //System.out.println(x.asString());
+        } catch (RserveException e) {
+            e.printStackTrace();
+        } catch (REXPMismatchException e) {
+            e.printStackTrace();
+        }
+    }
+}
